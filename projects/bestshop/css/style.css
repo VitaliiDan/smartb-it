@@ -19,7 +19,7 @@ header {
     box-shadow: #00000029 0 3px 6px;
 }
 
-header > .container {
+.menu-wrapper > .container {
     height: 70px;
     display: flex;
     flex-flow: row wrap;
@@ -57,4 +57,11 @@ header > .container {
 
 .header-menu_link + .header-menu_link {
     margin-left: 95px;
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: calc(100vh - 200px);
+    margin-top: 130px;
+    background: url("../img/Background.png");
 }
