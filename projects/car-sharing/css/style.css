@@ -393,13 +393,6 @@ header:after {
     min-height: 140px;
 }
 
-/*.id-checkbox {*/
-/*    display: flex;*/
-/*    flex-flow: row wrap;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-
 input[type=checkbox] {
     display: none;
 }
@@ -424,7 +417,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked + label:before {
-    background: url("../images/iconcheck.svg") no-repeat center;
+    background: url("../images/IconCheck.svg") no-repeat center;
     background-size: contain;
 }
 
