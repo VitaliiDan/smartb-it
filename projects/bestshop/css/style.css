@@ -105,6 +105,7 @@
     width: 100%;
     position: absolute;
     bottom: -65px;
+    z-index: -2;
 }
 
 .content-info {
@@ -209,6 +210,60 @@
     border: #E8E9ED 1px solid;
     margin-bottom: 37px;
     border-radius: 5px;
+    display: flex;
+    justfy-content: space-between;
+    align-items: center;
+}
+
+.line_1-left, .line_2-right, .line_3-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.line_1-left {
+    margin-left: 35px;
+    width: 416px;
+    height: 188px;
+}
+
+.line_2-right {
+    margin-right: 20px;
+    width: 416px;
+    height: 188px;
+}
+
+.line_1-left > h3, .line_2-right > h3, .line_3-left > h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.line_1-left > p, .line_2-right > p, .line_3-left > p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.red-line {
+    width: 328px;
+    height: 0;
+    border: #FB3B64 2px solid;
+}
+
+.blue-line {
+    width: 328px;
+    height: 0;
+    border: #08A6E4 2px solid;
+}
+
+.green-line {
+    width: 328px;
+    height: 0;
+    border: #55DFB4 2px solid;
 }
 
 .main-content-box_line_3 {
@@ -221,9 +276,53 @@
     align-items: center;
 }
 
+.line_1-right {
+    width: 433px;
+    height: 294px;
+    margin-right: 71px;
+    position: relative;
+}
+
+.line_1-right > img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.rectangle-red {
+    width: 180px;
+    height: 180px;
+    border-radius: 41px;
+    background: #FB3B64;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.line_2-left {
+    width: 426px;
+    height: 328px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.line_2-left > img {
+    position: absolute;
+    top: 20px;
+}
+
+.big-circle-blue {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: #07ACE6;
+}
+
 .line_3-left {
-    width: 623px;
-    height: 370px;
+    width: 550px;
+    height: 230px;
+    padding: 70px 35px;
     background: #FFFFFF;
     border: #E8E9ED 1px solid;
     border-radius: 5px;
@@ -238,4 +337,205 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pricing {
+    background: #FFFFFF;
+}
+
+.pricing > .container {
+    width: 1266px;
+    height: 616px;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-title {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.pricing-content {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-box {
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.wrapper-price {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-box-header > h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #13253B;
+    text-align: center;
+    padding-top: 34px;
+}
+.pricing-box-header > .price {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.pricing-box-header > .offer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.basic-box {
+    border: #FB3B64 1px solid;
+}
+
+.basic-box .price {
+    color: #FB3B64;
+}
+
+.professional-box {
+    border: #07ACE6 1px solid;
+    /*box-shadow: #07ACE629 5px 10px 27px;*/
+}
+.professional-box .price {
+    color: #07ACE6;
+}
+
+.premium-box {
+    border: #55DFB4 1px solid;
+}
+
+.premium-box .price {
+    color: #55DFB4;
+}
+
+.pricing-box-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.check + label {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.pricing-box-info label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.check-green:before {
+    content: '';
+    color: #55DFB4;
+    display: inline-block;
+    min-width: 11px;
+    min-height: 11px;
+    border-radius: 2px;
+    border: #55DFB4 1px solid;
+    margin-right: 10px;
+    background: url("../img/Checkmark.svg") no-repeat center;
+    background-size: contain;
+}
+
+.check-red:before {
+    content: 'x';
+    color: #EB476E;
+    display: inline-block;
+    min-width: 11px;
+    min-height: 11px;
+    border-radius: 2px;
+    border: #EB476E 1px solid;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 11px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+}
+
+.pricing-box-link {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 16px 57px;
+    border-radius: 23px;
+    bottom: -23px;
+    left: 112px;
+}
+
+.red-link {
+    background: #EB476E;
+}
+.blue-link {
+    background: #07ACE6;
+}
+.green-link {
+    background: #55DFB4;
+}
+
+.basic-box:hover {
+    cursor: pointer;
+    box-shadow: #FB3B64 5px 10px 27px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.basic-box:hover > .red-link {
+    box-shadow: #FB3B64 5px 10px 14px;
+}
+
+.professional-box:hover {
+    cursor: pointer;
+    box-shadow: #07ACE629 5px 10px 27px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.professional-box:hover > .blue-link {
+    box-shadow: #07ACE629 5px 10px 14px;
+}
+
+.premium-box:hover {
+    cursor: pointer;
+    box-shadow: #55DFB4 5px 10px 27px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.premium-box:hover > .green-link {
+    box-shadow: #55DFB4 5px 10px 14px;
 }

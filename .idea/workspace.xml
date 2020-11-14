@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/bestshop/bestshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bestshop/bestshop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/bestshop/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bestshop/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/car-sharing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/car-sharing/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605356901544</updated>
       <workItem from="1605356902616" duration="889000" />
-      <workItem from="1605357935925" duration="8816000" />
+      <workItem from="1605357935925" duration="9014000" />
+      <workItem from="1605367753127" duration="11654000" />
     </task>
     <servers />
   </component>
