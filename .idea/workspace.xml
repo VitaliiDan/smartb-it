@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f7e980-84e8-417e-b47e-7439cc40c85a" name="Default Changelist" comment="" />
+    <list default="true" id="75f7e980-84e8-417e-b47e-7439cc40c85a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/projects/car-sharing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/car-sharing/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +63,7 @@
       <workItem from="1605357935925" duration="9014000" />
       <workItem from="1605367753127" duration="11986000" />
       <workItem from="1605395548557" duration="241000" />
+      <workItem from="1605434591826" duration="204000" />
     </task>
     <servers />
   </component>

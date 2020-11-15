@@ -138,7 +138,7 @@ header:after {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: url("../images/iconarrowdown.svg") no-repeat center #FF0000;
+    background: url("../images/IconArrowDown.svg") no-repeat center #FF0000;
     box-shadow: #FF00004D 0 2px 6px;
     position: absolute;
     bottom: -28px;
